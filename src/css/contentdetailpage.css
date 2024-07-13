@@ -1,0 +1,38 @@
+.content-details {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    color: #898989;
+  }
+  
+  .content-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .content-details p {
+    margin: 5px 0;
+  }
+  
+  .content-details strong {
+    font-weight: bold;
+  }
+
+  .content-page{
+    transform: translateY(15%);
+  }
+
+  .white-color{
+    color: white;
+  }
+
+  .content-description{
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+
+  .content-img img{
+    height: 400px;
+    width: 100%;
+  }

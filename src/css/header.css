@@ -1,0 +1,52 @@
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s;
+  z-index: 1000; /* Make sure the header is above other content */
+}
+
+.header.scrolled {
+  background-color: black;
+}
+
+.header nav {
+  display: flex;
+  align-items: center; /* Center the navigation vertically if needed */
+  height: 60px; /* Adjust as needed */
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.header li {
+  margin: 0 15px; /* Space between nav items */
+}
+
+.header a {
+  text-decoration: none;
+  color: white; /* Default text color */
+  
+}
+
+.header.scrolled a {
+  color: white; /* Text color when scrolled */
+}
+.header nav .logo a {
+  color: red;
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-button{
+  background-color: red;
+  color: white;
+  border: none;
+  margin-left: 10px;
+}

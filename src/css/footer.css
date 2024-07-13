@@ -1,0 +1,27 @@
+/* footer.css */
+.footer-list {
+    list-style-type: none; /* Removes default list styling */
+    padding: 0;
+  }
+  
+  .footer-item {
+    margin-bottom: 8px; /* Adjust as needed */
+  }
+  
+  .footer-item a {
+    color: #898989; /* Default link color */
+    text-decoration: none;
+  }
+  
+  .footer-item a:hover {
+    text-decoration: underline; 
+  }
+
+  .copyright{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+
+  
