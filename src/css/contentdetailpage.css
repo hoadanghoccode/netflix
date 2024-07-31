@@ -36,3 +36,22 @@
     height: 400px;
     width: 100%;
   }
+
+  .favorite-btn {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+}
+/* .btn {
+    border: none;
+    padding: 9px 15px;
+    min-width: 70px;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    font-weight: 500;
+} */

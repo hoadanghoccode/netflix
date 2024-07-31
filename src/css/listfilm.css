@@ -1,0 +1,20 @@
+.custom-dropdown .dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.9);
+    color: #fff;
+  }
+  .custom-dropdown .dropdown-item:hover {
+    background-color: #444;
+    
+  } 
+  .custom-dropdown .dropdown-toggle {
+    background-color: #000; /* Set your desired background color */
+    color: #fff; /* Set your desired text color */
+    border: none; /* Remove border if desired */
+  }
+  
+  .custom-dropdown .dropdown-toggle:hover,
+  .custom-dropdown .dropdown-toggle:focus {
+    background-color: #444; /* Set your desired hover/focus background color */
+    color: #fff; /* Set your desired hover/focus text color */
+  }
+  

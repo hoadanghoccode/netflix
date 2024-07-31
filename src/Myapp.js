@@ -11,6 +11,10 @@ import AdminDashboard from "./components/AdminDashboard";
 import Register from "./components/Register";
 import Blogpage from "./components/Blogpage";
 import Detailblog from "./components/Detailblog";
+import Listfilm from "./components/Listfilm";
+import Listfilmbycountry from "./components/Listfilmbycountry";
+import Favourite from "./components/Favourite";
+import MyButton from "./components/MyButton";
 
 const Myapp = () => {
   return (
@@ -26,7 +30,11 @@ const Myapp = () => {
         <Route path="/admin" element={<AdminDashboard />} />
         <Route path="/register" element={<Register />} />
         <Route path="/blog" element={<Blogpage />} />
+        <Route path="/film" element={<Listfilm />} />
         <Route path="/blogdetail/:id" element={<Detailblog />} />
+        <Route path="/country" element={<Listfilmbycountry />} />
+        <Route path="/favourite" element={<Favourite />} />
+        <Route path="/MyButton" element={<MyButton />} />
       </Routes>
     </>
   );

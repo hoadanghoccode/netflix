@@ -63,13 +63,20 @@ const Header = () => {
             </div>
             <ul>
               <li>
-                <Link to={`/add`}>Home</Link>
+                <Link to={`/country`}>Country</Link>
               </li>
               <li>
-                <a href="#about">Film</a>
+                <Link to={`/film`}>Film</Link>
               </li>
               <li>
                 <a href="/blog">Blog</a>
+              </li>
+
+              <li>
+                <a href="/favourite">favourite</a>
+              </li>
+              <li>
+                <a href="/test">test</a>
               </li>
             </ul>
           </nav>
